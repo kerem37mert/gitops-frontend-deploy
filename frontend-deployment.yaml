@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: gitops-frontend
-          image: keremmert/gitops-frontend:latest
+          image: keremmert/gitops-frontend:v2
           ports:
             - containerPort: 80
           resources:
